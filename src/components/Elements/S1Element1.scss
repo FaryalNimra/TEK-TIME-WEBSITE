@@ -1,0 +1,33 @@
+.s1element1-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px;
+    text-align: center;
+    margin-top: 50px;
+  
+    .s1element1-heading {
+      font-size: 22px;
+      margin-bottom: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      font-weight: bold;
+    }
+  
+    .s1element1-paragraph {
+      font-size: 15px;
+      margin-bottom: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: red;
+    }
+    
+    @media (max-width: 768px) {
+      .s1element1-heading {
+        font-size: 20px;
+      }
+  
+      .s1element1-paragraph {
+        font-size: 14px;
+      }
+    }
+  }
+  

@@ -1,0 +1,119 @@
+.element11-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  overflow: auto; // Ensure content doesn't overflow and disappear
+}
+
+.element11-heading {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.element11-paragraph {
+  margin-top: 0;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.element11-subheading {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.element11-subparagraph {
+  font-size: 14px;
+  color: white;
+  text-align: left;
+}
+
+.element11-icon {
+  margin-bottom: 10px;
+}
+
+.element11-group-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Adjust gap between icons as needed */
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .element11-heading {
+    font-size: 20px;
+  }
+
+  .element11-paragraph {
+    font-size: 13px;
+  }
+
+  .element11-subheading {
+    font-size: 14px;
+  }
+
+  .element11-subparagraph {
+    font-size: 12px;
+  }
+
+  .element11-group-icons {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .element11-heading {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .element11-paragraph {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .element11-subheading {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .element11-subparagraph {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .element11-icon {
+    text-align: center;
+  }
+
+  .element11-group-icons {
+    justify-content: center;
+    bottom: 5px;
+    right: 5px;
+  }
+}

@@ -1,0 +1,77 @@
+.element1-container {
+  text-align: center; /* Center the image horizontally */
+}
+
+.image-container {
+  position: relative;
+  margin-top: 20px; /* Add top margin */
+  margin-bottom: 20px; /* Add bottom margin */
+}
+
+.element1-image {
+  max-width: 70%; /* Adjust the maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.icon {
+  position: absolute;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+}
+.icon1 {
+  position: absolute;
+  /* Adjust size as needed */
+}
+.top-left {
+  top: 0;
+  left: 120px;
+  width: 100%; /* Adjust size as needed */
+  height: 500%;
+}
+
+.top-right {
+  top: 0;
+  right: 150px;
+  width: 20px; /* Adjust size as needed */
+  height: 50px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 150px;
+  width: 20px; /* Adjust size as needed */
+  height: 50px;
+}
+
+.bottom-right {
+  bottom: 30px;
+  right: 150px;
+  width: 20px; /* Adjust size as needed */
+  height: 50px;
+}
+
+.white-background {
+  background-color: white;
+  padding: 50px; /* Optional padding for better spacing */
+  width: 100%; /* Make sure the div takes the full width of the container */
+  max-width: 1200px; /* Adjust the max-width as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow for better visibility */
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding-left: 30px;
+}
+
+.column {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  color: #7D818D; /* Center text in columns */
+}

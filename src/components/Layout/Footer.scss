@@ -1,0 +1,87 @@
+.footer {
+    background-color: #161C2D; /* Dark background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+    bottom: 0;
+    height: auto;
+    padding: 20px 0;
+    color: white;
+  }
+  
+  .box-container {
+    display: flex;
+    background-color: #161C2D;
+    justify-content: space-between; /* Distribute boxes evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .box {
+    flex: 1; /* Each box takes equal space */
+    margin: 10px; /* Adjust margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #161C2D;
+    color: white;
+    border-radius: 10px; /* Optional: Rounded corners for boxes */
+  }
+  
+  .logo-image {
+    width: 70px; /* Adjust the width as needed */
+    height: 50px;
+    margin-bottom: 20px; /* Maintain aspect ratio */
+  }
+  
+  h4 {
+    font-size: 25px; /* Font size for headings */
+    color: white; /* Heading text color */
+    margin-bottom: 10px; /* Space below heading */
+    font-family: Montserrat, sans-serif; /* Font family for headings */
+  }
+  
+  .box p,
+  .box a,
+  .box .additional-info p {
+    font-size: 15px; /* Font size for paragraphs */
+    color: white; /* Paragraph and link text color */
+    line-height: 1.5; /* Line height for readability */
+    font-family: Montserrat, sans-serif; /* Font family for paragraphs */
+  }
+  
+  .box a {
+    display: block; /* Display as block elements */
+    color: white; /* Link text color */
+    margin-bottom: 5px; /* Space below each link */
+    text-decoration: none; /* Remove underline */
+    font-family: Montserrat, sans-serif; /* Font family for links */
+  }
+  
+  .footer-divider {
+    border: 0;
+    height: 1px;
+    background: #6d8bb0; /* Divider color */
+    margin: 20px 0; /* Space around the divider */
+  }
+  
+  .social-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer-logo {
+    flex: 1;
+  }
+  
+  .footer-text {
+    flex: 1;
+    text-align: center;
+    color: #6d8bb0;
+  }
+  
+  .footer-icons {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    gap: 10px;
+  }
+  
